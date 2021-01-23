@@ -1,0 +1,192 @@
+*
+/*{
+    border:red solid 2px;
+}*/
+
+@media screen and (max-width :530) {
+   
+    
+}
+
+@media screen and (max-width : 814px) {
+
+   
+
+
+    .logop2{
+        width: 10%;
+    }
+
+
+    .formulaire{
+        font-size: 13px;
+        border: none;
+        background-color: rgb(234, 234, 234);
+        text-align: center;
+    }
+
+    .blocrecherche{
+        display: flex;
+        align-items: center;
+    }
+
+    article{
+        width: 100%;
+    }
+
+
+    .explorer {
+        width: 50%;
+    }
+
+    .explorer h1 {
+        font-size: 20px;
+    }
+
+    .explorer p {
+        font-size: 12px;
+    }
+
+    .boutonexplorer {
+        height: 32px;
+        width: 130px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .boutonexplorer p {
+        font-size: 10px;
+    }
+
+    article {
+        margin-right: 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .blocbouton {
+
+        align-items: center;
+    }
+
+    .bouton {
+        margin-bottom: 20px;
+        border-radius: 25px 25px 25px 25px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        padding-left: 160px;
+    }
+
+    .icones {
+        display: inline;
+        position: absolute;
+
+
+    }
+
+    .bouton {
+        padding-left: 330px
+    }
+
+
+.nouveau{
+    margin-left:550px;
+}
+    footer {
+        font-size: 12px;
+    }
+
+    .logopied {
+        width: 20%;
+    }
+
+    .carte {
+        padding-left: 0;
+    }
+
+    .cartes {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width : 1207px) {
+
+
+    .fav {
+        display: block
+    }
+
+    .titrescartes {
+        width: 100%;
+    }
+
+    .souslegende {
+        width: 80%;
+    }
+
+    .icones {
+        display: inline;
+        left: 70px;
+        padding-top: 90px;
+        position: absolute;
+        
+    }
+
+    .icone1 {
+        margin-top: -290px;
+        color:black;
+
+    }
+
+    .icone2 {
+        margin-top: -215px;
+        color:black;
+    }
+
+    .icone3 {
+        margin-top: -140px;
+        color: #9356DC;
+    }
+
+    .cercle1 {
+        margin-top: -180px;
+    }
+
+    .cercle2 {
+        margin-top: -100px;
+    }
+
+    .cercle3 {
+        margin-top: -30px;
+    }
+
+
+    .cercle {
+        position: absolute;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        background:#9356DC;
+        left: 20px;
+    }
+
+    .cercle p{
+        margin-left: 10px;
+        margin-top:7px;
+        color: white;
+    }
+    .nouveau {
+        display: inline-block;
+        position: absolute;
+        align-items: center;
+        text-align: center;
+    }
+
+
+}
