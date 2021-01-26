@@ -3,29 +3,34 @@
     border:red solid 2px;
 }*/
 
-
+@media screen and (max-width :530) {
+   
+    
+}
 
 @media screen and (max-width : 814px) {
 
+   
 
-    .logop2 {
+
+    .logop2{
         width: 10%;
     }
 
 
-    .formulaire {
+    .formulaire{
         font-size: 13px;
         border: none;
         background-color: rgb(234, 234, 234);
         text-align: center;
     }
 
-    .blocrecherche {
+    .blocrecherche{
         display: flex;
         align-items: center;
     }
 
-    article {
+    article{
         width: 100%;
     }
 
@@ -87,10 +92,9 @@
     }
 
 
-    .nouveau {
-        margin-left: 550px;
-    }
-
+.nouveau{
+    margin-left:550px;
+}
     footer {
         font-size: 12px;
     }
@@ -107,7 +111,6 @@
         width: 100%;
     }
 }
-
 
 
 
@@ -131,18 +134,18 @@
         left: 70px;
         padding-top: 90px;
         position: absolute;
-
+        
     }
 
     .icone1 {
         margin-top: -290px;
-        color: black;
+        color:black;
 
     }
 
     .icone2 {
         margin-top: -215px;
-        color: black;
+        color:black;
     }
 
     .icone3 {
@@ -169,16 +172,15 @@
         width: 30px;
         height: 30px;
         border-radius: 20px;
-        background: #9356DC;
+        background:#9356DC;
         left: 20px;
     }
 
-    .cercle p {
+    .cercle p{
         margin-left: 10px;
-        margin-top: 7px;
+        margin-top:7px;
         color: white;
     }
-
     .nouveau {
         display: inline-block;
         position: absolute;
