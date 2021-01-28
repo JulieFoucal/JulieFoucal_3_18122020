@@ -5,10 +5,7 @@
 
 
 
-@media screen and (max-width : 814px){
-
-   
-
+@media screen and (max-width : 814px) {
 
     .logop2{
         width: 10%;
@@ -123,7 +120,7 @@
 
     /*ne fonctionne plus*/
     .icones {
-        display: inline-block;
+        display:inline-block;
         left: 70px;
         padding-top: 90px;
         position: absolute;
