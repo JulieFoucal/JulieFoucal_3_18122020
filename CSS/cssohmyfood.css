@@ -37,6 +37,9 @@ body {
 }
 
 
+.explorer h1{
+    font-weight: bold;
+}
 .boutonexplorer {
     background: linear-gradient(#FF79DA, #9356DC);
     color: white;
