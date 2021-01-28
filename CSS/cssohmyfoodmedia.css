@@ -107,7 +107,7 @@
 
 
     .fav {
-        display: block
+        display: inline-block;
     }
 
     .titrescartes {
