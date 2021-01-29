@@ -1,30 +1,114 @@
-*
 /*{
     border:red solid 2px;
 }*/
 
 
 
+
+
+
+@media screen and (max-width : 1207px) {
+
+
+    .fav {
+        display: inline-block;
+    }
+
+    .titrescartes {
+        width: 100%;
+    }
+
+    .souslegende {
+        width: 80%;
+    }
+
+    /*ne fonctionne plus*/
+    .icones {
+        display: inline-block;
+        left: 70px;
+        padding-top: 90px;
+        position: absolute;
+
+    }
+
+    .icone1 {
+        margin-top: -290px;
+        color: black;
+
+    }
+
+    .icone2 {
+        margin-top: -215px;
+        color: black;
+    }
+
+    .icone3 {
+        margin-top: -140px;
+        color: #9356DC;
+    }
+
+    .cercle1 {
+        margin-top: -180px;
+    }
+
+    .cercle2 {
+        margin-top: -100px;
+    }
+
+    .cercle3 {
+        margin-top: -30px;
+    }
+
+
+    .cercle {
+        position: absolute;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        background: #9356DC;
+        left: 20px;
+    }
+
+    .cercle p {
+        margin-left: 10px;
+        margin-top: 7px;
+        color: white;
+    }
+
+    /*ne fonctionne plus*/
+    .nouveau {
+        display: inline-block;
+        position: absolute;
+        align-items: center;
+        text-align: center;
+    }
+
+
+}
+
+
+
 @media screen and (max-width : 814px) {
 
-    .logop2{
+    .logop2 {
         width: 10%;
     }
 
 
-    .formulaire{
+    .formulaire {
         font-size: 13px;
         border: none;
         background-color: rgb(234, 234, 234);
         text-align: center;
     }
 
-    .blocrecherche{
+    .blocrecherche {
         display: flex;
         align-items: center;
     }
 
-    article{
+    article {
         width: 100%;
     }
 
@@ -74,16 +158,17 @@
         padding-left: 160px;
     }
 
-  
+
 
     .bouton {
         padding-left: 330px
     }
 
 
-.nouveau{
-    margin-left:550px;
-}
+    .nouveau {
+        margin-left: 550px;
+    }
+
     footer {
         font-size: 12px;
     }
@@ -99,86 +184,4 @@
     .cartes {
         width: 100%;
     }
-}
-
-
-
-@media screen and (max-width : 1207px) {
-
-
-    .fav {
-        display: inline-block;
-    }
-
-    .titrescartes {
-        width: 100%;
-    }
-
-    .souslegende {
-        width: 80%;
-    }
-
-    /*ne fonctionne plus*/
-    .icones {
-        display:inline-block;
-        left: 70px;
-        padding-top: 90px;
-        position: absolute;
-        
-    }
-
-    .icone1 {
-        margin-top: -290px;
-        color:black;
-
-    }
-
-    .icone2 {
-        margin-top: -215px;
-        color:black;
-    }
-
-    .icone3 {
-        margin-top: -140px;
-        color: #9356DC;
-    }
-
-    .cercle1 {
-        margin-top: -180px;
-    }
-
-    .cercle2 {
-        margin-top: -100px;
-    }
-
-    .cercle3 {
-        margin-top: -30px;
-    }
-
-
-    .cercle {
-        position: absolute;
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        border-radius: 20px;
-        background:#9356DC;
-        left: 20px;
-    }
-
-    .cercle p{
-        margin-left: 10px;
-        margin-top:7px;
-        color: white;
-    }
-
-    /*ne fonctionne plus*/
-    .nouveau {
-        display: inline-block;
-        position: absolute;
-        align-items: center;
-        text-align: center;
-    }
-
-
 }
