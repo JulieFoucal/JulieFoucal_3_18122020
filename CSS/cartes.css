@@ -292,7 +292,7 @@ ul {
 li {
     list-style: none;
     margin-bottom: 5px;
-    margin-left: 0;
+    margin-left: 10px;
 }
 
 li a{
@@ -301,12 +301,18 @@ li a{
 }
 
 .icone {
-    margin-right: 10px;
+    margin-right: 0px;
 }
 
-.couverts {
-    margin-right: 17px;
+.couverts, .hands {
+    margin-right: 0;
+    padding-right: 10px;
 
+}
+
+.mention{
+    padding-left:-0px;
+    margin-left: -15px;
 }
 
 

@@ -84,6 +84,11 @@
         text-align: center;
     }
 
+    .bloccoeur {
+        display: inline-block;
+    }
+
+
 
 }
 
@@ -166,7 +171,7 @@
 
 
     .nouveau {
-        margin-left: 550px;
+        width:15%;
     }
 
     footer {
@@ -184,4 +189,6 @@
     .cartes {
         width: 100%;
     }
+
+    
 }
