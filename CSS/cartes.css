@@ -81,7 +81,9 @@ header {
     object-fit: cover;
 }
 
-
+.blocfond{
+    width: 100%;
+}
 
 .grandbloc {
     background-color: rgb(246, 246, 246);
@@ -129,7 +131,9 @@ header {
     display: flex;
 }
 
-
+.prix{
+    font-weight: bold;
+}
 
 
 .blocdessert {

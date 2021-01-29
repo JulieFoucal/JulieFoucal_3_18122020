@@ -1,3 +1,49 @@
+@media screen and (max-width : 1208px) {
+    .blocfond {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 230vh;
+    }
+
+    .grandbloc {
+        position: absolute;
+        border-radius: 50px 50px 50px 50px;
+        top: -50px;
+        margin-left:0;
+        width: 100%;
+    }
+
+    .banniere1{
+        height:60vh;
+    }
+
+    .imagerestos{
+        height:60vh;
+    }
+
+    .nomrestaurants{
+        font-size: 2.5em;
+        padding-left:30px;
+        padding-top: 15px;
+    }
+
+    .titre1{
+        margin-left:0px;
+    }
+
+    .imagecoeur{
+    padding-top: 20px;
+    }
+
+    
+}
+
+
+
+
+
 @media screen and (max-width : 900px) {
 
     h1 {
@@ -5,7 +51,7 @@
         margin-left: 0;
     }
 
-    
+
 
     .prix {
         margin-left: 0;
@@ -22,7 +68,7 @@
         justify-content: center;
     }
 
-    
+
 
     .logopied {
         width: 50%;
@@ -32,5 +78,5 @@
         width: 16%;
     }
 
-    
+
 }
