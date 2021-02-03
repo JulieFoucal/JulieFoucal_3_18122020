@@ -341,7 +341,6 @@ li a{
     transition-property: transform;
     transition-duration: 1000ms;
     transition: transform 500ms;
-    background: 300ms;
     color: #FF79DA;
 }
 
