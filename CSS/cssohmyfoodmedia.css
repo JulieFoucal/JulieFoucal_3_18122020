@@ -2,11 +2,6 @@
     border:red solid 2px;
 }*/
 
-
-
-
-
-
 @media screen and (max-width : 1207px) {
 
 
@@ -30,7 +25,7 @@
     .icones {
         font-size: 1.5em;
         display: inline-block;
-        left: 53px;
+        left: 170px;
         padding-top: 90px;
         position: absolute;
 
@@ -101,6 +96,7 @@
 
 @media screen and (max-width : 814px) {
 
+   
     .logop2 {
         width: 10%;
     }
@@ -196,3 +192,52 @@
 
     
 }
+
+
+@media screen and (max-width : 706px) {
+
+.icones {
+    font-size: 1.5em;
+    display: inline-block;
+    left: 130px;
+    padding-top: 90px;
+    position: absolute;
+
+}
+}
+
+@media screen and (max-width : 557px) {
+
+    .icones {
+        font-size: 1.5em;
+        display: inline-block;
+        left: 100px;
+        padding-top: 90px;
+        position: absolute;
+    
+    }
+    }
+
+    @media screen and (max-width : 481px) {
+
+        .icones {
+            font-size: 1.5em;
+            display: inline-block;
+            left: 80px;
+            padding-top: 90px;
+            position: absolute;
+        
+        }
+        }
+
+        @media screen and (max-width : 427px) {
+
+            .icones {
+                font-size: 1.5em;
+                display: inline-block;
+                left: 54px;
+                padding-top: 90px;
+                position: absolute;
+            
+            }
+            }
