@@ -255,7 +255,7 @@ article {
     position: relative;
     display: flex;
     flex-direction: row;
-    background-color: rgba(256 256 256);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 10px;
     box-shadow: 3px 3px 22px rgb(212, 208, 208);
