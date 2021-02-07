@@ -4,7 +4,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 200vh;
+        height: 240vh;
     }
 
     .grandbloc {
@@ -90,33 +90,43 @@
 @media screen and (max-width : 769px) {
     .blocfond {
         width: 100%;
-        height: 200vh;
+        height: 240vh;
     }
 
 }
 
-@media screen and (max-width : 596px) {
-    .blocfond {
-        height: 205vh;
-    }
-}
 
-@media screen and (max-width : 469px) {
+@media screen and (max-width : 372px) {
     .blocfond {
-        height: 210vh;
+        width: 100%;
+        height: 250vh;
     }
+
 }
 
 
-/*Iphone 6/7/8 plus*/
-@media screen and (max-width : 415px) {
+@media screen and (max-width : 334px) {
     .blocfond {
-        height: 180vh;
+        width: 100%;
+        height: 270vh;
     }
+
 }
-/*Iphone X*/
-@media screen and (max-width : 376px) {
+
+
+@media screen and (max-width : 320px) {
     .blocfond {
-        height: 170vh;
+        width: 100%;
+        height: 280vh;
     }
+
+}
+
+
+@media screen and (max-width : 300px) {
+    .blocfond {
+        width: 100%;
+        height: 290vh;
+    }
+
 }
