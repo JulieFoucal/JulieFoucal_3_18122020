@@ -4,7 +4,13 @@
 
 @media screen and (max-width : 1207px) {
 
+    .carte {
+        display: flex;
+        flex-direction: row;
+        height:100%;
+    }
 
+   
     .fav {
         display: inline-block;
     }
@@ -13,15 +19,15 @@
         width: 100%;
     }
 
-   
+
     .souslegende {
         width: 80%;
     }
 
     .bloccoeur {
-        font-size:1em;
+        font-size: 1em;
     }
-   
+
     .icones {
         font-size: 1.5em;
         display: inline-block;
@@ -96,12 +102,12 @@
 
 @media screen and (max-width : 814px) {
 
-   
+
     .logop2 {
         width: 10%;
     }
 
-    
+
     .formulaire {
         font-size: 13px;
         border: none;
@@ -171,7 +177,7 @@
 
 
     .nouveau {
-        width:15%;
+        width: 15%;
     }
 
     footer {
@@ -190,20 +196,20 @@
         width: 100%;
     }
 
-    
+
 }
 
 
 @media screen and (max-width : 706px) {
 
-.icones {
-    font-size: 1.5em;
-    display: inline-block;
-    left: 130px;
-    padding-top: 90px;
-    position: absolute;
+    .icones {
+        font-size: 1.5em;
+        display: inline-block;
+        left: 130px;
+        padding-top: 90px;
+        position: absolute;
 
-}
+    }
 }
 
 @media screen and (max-width : 557px) {
@@ -214,30 +220,30 @@
         left: 100px;
         padding-top: 90px;
         position: absolute;
-    
+
     }
+}
+
+@media screen and (max-width : 481px) {
+
+    .icones {
+        font-size: 1.5em;
+        display: inline-block;
+        left: 80px;
+        padding-top: 90px;
+        position: absolute;
+
     }
+}
 
-    @media screen and (max-width : 481px) {
+@media screen and (max-width : 427px) {
 
-        .icones {
-            font-size: 1.5em;
-            display: inline-block;
-            left: 80px;
-            padding-top: 90px;
-            position: absolute;
-        
-        }
-        }
+    .icones {
+        font-size: 1.5em;
+        display: inline-block;
+        left: 54px;
+        padding-top: 90px;
+        position: absolute;
 
-        @media screen and (max-width : 427px) {
-
-            .icones {
-                font-size: 1.5em;
-                display: inline-block;
-                left: 54px;
-                padding-top: 90px;
-                position: absolute;
-            
-            }
-            }
+    }
+}
