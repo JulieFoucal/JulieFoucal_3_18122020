@@ -4,43 +4,43 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 230vh;
+        height: 200vh;
     }
 
     .grandbloc {
         position: absolute;
         border-radius: 50px 50px 50px 50px;
         top: -50px;
-        margin-left:0;
+        margin-left: 0;
         width: 100%;
     }
 
-    .banniere1{
-        height:60vh;
+    .banniere1 {
+        height: 60vh;
     }
 
-    .imagerestos{
-        height:60vh;
+    .imagerestos {
+        height: 60vh;
     }
 
-    .nomrestaurants{
+    .nomrestaurants {
         font-size: 1.5em;
-        padding-left:30px;
+        padding-left: 30px;
         padding-top: 15px;
     }
 
-    .titre1{
-        margin-left:0px;
+    .titre1 {
+        margin-left: 0px;
 
     }
 
-    
 
-    .imagecoeur{
-    padding-top: 20px;
+
+    .imagecoeur {
+        padding-top: 20px;
     }
 
-    
+
 }
 
 
@@ -66,7 +66,7 @@
     }
 
     .boutoncommander {
-        margin-top: 15px;
+        margin-top: 40px;
         display: flex;
         justify-content: center;
     }
@@ -82,4 +82,41 @@
     }
 
 
+}
+
+
+
+/*IPad*/
+@media screen and (max-width : 769px) {
+    .blocfond {
+        width: 100%;
+        height: 200vh;
+    }
+
+}
+
+@media screen and (max-width : 596px) {
+    .blocfond {
+        height: 205vh;
+    }
+}
+
+@media screen and (max-width : 469px) {
+    .blocfond {
+        height: 210vh;
+    }
+}
+
+
+/*Iphone 6/7/8 plus*/
+@media screen and (max-width : 415px) {
+    .blocfond {
+        height: 180vh;
+    }
+}
+/*Iphone X*/
+@media screen and (max-width : 376px) {
+    .blocfond {
+        height: 170vh;
+    }
 }
