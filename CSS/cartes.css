@@ -303,13 +303,19 @@ ul {
     display: flex;
     flex-direction: column;
 }
-
+a:link{
+    text-decoration: none;
+    color: white;
+}
 li {
     list-style: none;
     margin-bottom: 5px;
     margin-left: 10px;
 }
 
+.choix :link{
+    color: black;
+}
 li a{
     color: white;
     padding-left:30px;

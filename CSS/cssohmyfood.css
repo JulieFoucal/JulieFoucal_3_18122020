@@ -366,6 +366,9 @@ ul {
 
 }
 
+a:link{
+    text-decoration: none;
+}
 ul {
     display: flex;
     flex-direction: column;
